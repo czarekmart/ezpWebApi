@@ -1,0 +1,13 @@
+update-package Microsoft.AspNet.WebApi EasyPower.Web.Api
+
+install-package log4net EasyPower.Web.Api 
+install-package ninject EasyPower.Web.Api 
+install-package Ninject.Web.Common EasyPower.Web.Api
+install-package Ninject.Web.Common.WebHost EasyPower.Web.Api 
+
+install-package ninject EasyPower.Web.Common 
+install-package ninject.web.common EasyPower.Web.Common
+install-package log4net EasyPower.Web.Common 
+install-package Ninject.Web.Common.WebHost EasyPower.Web.Api 
+
+install-package Microsoft.AspNet.WebApi EasyPower.Web.Common

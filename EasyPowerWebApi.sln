@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E6836C95-80B5-439F-A3AE-55904129C667}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		nuget.config = nuget.config
+		NugetCommands.txt = NugetCommands.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyPower.Web.Api", "EasyPower.Web.Api\EasyPower.Web.Api.csproj", "{501A1623-2941-42E1-BA0F-0021053A6EA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyPower.Web.Models", "EasyPower.Web.Models\EasyPower.Web.Models.csproj", "{A5E9402E-4983-45BB-B245-1032F05EAB57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyPower.Web.Api.Tests", "EasyPower.Web.Api.Tests\EasyPower.Web.Api.Tests.csproj", "{43717921-00F5-4311-8F06-F8F350312C32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyPower.Web.Common", "EasyPower.Web.Common\EasyPower.Web.Common.csproj", "{458D766E-270A-4420-925C-1760D61E1CBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyPower.Data.Dez", "EasyPower.Data.Dez\EasyPower.Data.Dez.csproj", "{A868C8D1-7E8F-4271-AAEB-4C58FF4D09FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyPower.Data", "EasyPower.Data\EasyPower.Data.csproj", "{24027939-7C98-4EA7-ABC0-80D773E85CCC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{501A1623-2941-42E1-BA0F-0021053A6EA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{501A1623-2941-42E1-BA0F-0021053A6EA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{501A1623-2941-42E1-BA0F-0021053A6EA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{501A1623-2941-42E1-BA0F-0021053A6EA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5E9402E-4983-45BB-B245-1032F05EAB57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5E9402E-4983-45BB-B245-1032F05EAB57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5E9402E-4983-45BB-B245-1032F05EAB57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5E9402E-4983-45BB-B245-1032F05EAB57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43717921-00F5-4311-8F06-F8F350312C32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43717921-00F5-4311-8F06-F8F350312C32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43717921-00F5-4311-8F06-F8F350312C32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43717921-00F5-4311-8F06-F8F350312C32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{458D766E-270A-4420-925C-1760D61E1CBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{458D766E-270A-4420-925C-1760D61E1CBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{458D766E-270A-4420-925C-1760D61E1CBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{458D766E-270A-4420-925C-1760D61E1CBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A868C8D1-7E8F-4271-AAEB-4C58FF4D09FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A868C8D1-7E8F-4271-AAEB-4C58FF4D09FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A868C8D1-7E8F-4271-AAEB-4C58FF4D09FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A868C8D1-7E8F-4271-AAEB-4C58FF4D09FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24027939-7C98-4EA7-ABC0-80D773E85CCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24027939-7C98-4EA7-ABC0-80D773E85CCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24027939-7C98-4EA7-ABC0-80D773E85CCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24027939-7C98-4EA7-ABC0-80D773E85CCC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
